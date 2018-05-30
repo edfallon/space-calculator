@@ -46,4 +46,9 @@ public class SpaceCalculator {
         double result = Math.floor(ageInSeconds / (31557600 * 164.79132));
         return result;
     }
+
+    public double ageOnPluto(){
+        double result = Math.floor(ageInSeconds / (31557600 * 248.00));
+        return result;
+    }
 }
