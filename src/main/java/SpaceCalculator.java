@@ -21,4 +21,9 @@ public class SpaceCalculator {
         double result = Math.floor(ageInSeconds / (31557600 * 0.61519726));
         return result;
     }
+
+    public double ageOnMars(){
+        double result = Math.floor(ageInSeconds / (31557600 * 1.8808158));
+        return result;
+    }
 }
