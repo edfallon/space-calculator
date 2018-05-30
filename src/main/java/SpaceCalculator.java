@@ -16,4 +16,9 @@ public class SpaceCalculator {
         double result = Math.floor(ageInSeconds / (31557600 * 0.2408467));
         return result;
     }
+
+    public double ageOnVenus(){
+        double result = Math.floor(ageInSeconds / (31557600 * 0.61519726));
+        return result;
+    }
 }
