@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/space-calculator.iml" filepath="$PROJECT_DIR$/.idea/modules/space-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/space-calculator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/space-calculator_main.iml" group="space-calculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/space-calculator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/space-calculator_test.iml" group="space-calculator" />
     </modules>
   </component>
 </project>
