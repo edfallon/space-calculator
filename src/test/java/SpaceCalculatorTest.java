@@ -19,4 +19,9 @@ public class SpaceCalculatorTest {
     public void canGetAgeOnEarth() {
         assertEquals(31, spaceCalculator1.ageOnEarth(), 0.01);
     }
+
+    @Test
+    public void canGetAgeOnMercury() {
+        assertEquals(131, spaceCalculator1.ageOnMercury(), 0.01);
+    }
 }
