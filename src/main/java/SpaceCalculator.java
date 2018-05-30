@@ -31,4 +31,9 @@ public class SpaceCalculator {
         double result = Math.floor(ageInSeconds / (31557600 * 11.862615));
         return result;
     }
+
+    public double ageOnSaturn(){
+        double result = Math.floor(ageInSeconds / (31557600 * 29.447498));
+        return result;
+    }
 }
