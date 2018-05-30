@@ -36,4 +36,9 @@ public class SpaceCalculator {
         double result = Math.floor(ageInSeconds / (31557600 * 29.447498));
         return result;
     }
+
+    public double ageOnUranus(){
+        double result = Math.floor(ageInSeconds / (31557600 * 84.016846));
+        return result;
+    }
 }
