@@ -41,4 +41,9 @@ public class SpaceCalculator {
         double result = Math.floor(ageInSeconds / (31557600 * 84.016846));
         return result;
     }
+
+    public double ageOnNeptune(){
+        double result = Math.floor(ageInSeconds / (31557600 * 164.79132));
+        return result;
+    }
 }
